@@ -1,0 +1,42 @@
+input:hover, textarea:hover {
+        background: #eef;
+}
+
+input:focus, textarea:focus {
+        background: #eee;
+}
+
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+#verificationform input[type="text"], #verificationform textarea {
+	width: 300px;
+}
+
+#verificationform textarea {
+	height: 100px;
+}
+
+.account_id {
+	width: 40px;
+}
+
+#credit, #debit {
+	width: 60px;
+	text-align: right;
+}
+
+#posts {
+	border: 1px solid #ccc;
+}
+
+table th {
+	background: #ccc;
+}
+
+table td {
+	padding: 3px;
+}

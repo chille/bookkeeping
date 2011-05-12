@@ -1,0 +1,72 @@
+body {
+	background: #ccc;
+	font-family: Avenir, "Lucida Grande", Verdana, "Bitstream Vera Sans", Arial, Helvetica, sans-serif;
+}
+
+#content {
+}
+
+#header {
+	width: 940px;
+	background: #20495B;
+	margin: 0;
+	padding: 10px;
+	color: #ddd;
+}
+
+#menu {
+	float: left;
+	width: 220px;
+	background: #64A0BB;
+	margin: 0;
+	padding: 10px;
+}
+
+#main {
+	float: left;
+	width: 700px;
+	background: #fff;
+	margin: 0;
+	padding: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 10px 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#menu a {
+	color: blue;
+}
+
+#menu a:hover {
+	color: red;
+}
+
+.error, .message {
+	margin: 10px 0;
+	padding: 0;
+}
+
+.error {
+	background-color: #fcc;
+	border: 1px solid #f00;
+}
+
+.message {
+	background-color: #cfc;
+	border: 1px solid #0f0;
+}
+
+.error p,
+.message p {
+	margin: 5px;
+}
