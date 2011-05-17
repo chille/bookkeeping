@@ -21,19 +21,19 @@
   <div id="menu">
     <h3>Bokföring</h3>
     <ul>
-      <li><a href="/CodeIgniter_2.0.2/index.php/Verification/MasterLedger">Huvudbok</a></li>
-      <li><a href="/CodeIgniter_2.0.2/index.php/Verification">Verifikationer</a></li>
-      <li><a href="/CodeIgniter_2.0.2/index.php/Verification/Accounts">Konton</a></li>
-      <li><a href="/CodeIgniter_2.0.2/index.php/Verification/Balance">Balansrapport</a></li>
-      <li><a href="/CodeIgniter_2.0.2/index.php/Verification/Result">Resultatrapport</a></li>
-      <li><a href="/CodeIgniter_2.0.2/index.php/Invoice">Fakturor</a></li>
-      <li><a href="/CodeIgniter_2.0.2/index.php/Nordea">Nordea import</a></li>
-      <li><a href="/CodeIgniter_2.0.2/index.php/Verification/test">Test</a></li>
+      <li><a href="/CodeIgniter_2.0.2/index.php/accounting/masterledger">Huvudbok</a></li>
+      <li><a href="/CodeIgniter_2.0.2/index.php/accounting">Verifikationer</a></li>
+      <li><a href="/CodeIgniter_2.0.2/index.php/accounting/accounts">Konton</a></li>
+      <li><a href="/CodeIgniter_2.0.2/index.php/accounting/balance">Balansrapport</a></li>
+      <li><a href="/CodeIgniter_2.0.2/index.php/accounting/result">Resultatrapport</a></li>
+      <li><a href="/CodeIgniter_2.0.2/index.php/invoice">Fakturor</a></li>
+      <li><a href="/CodeIgniter_2.0.2/index.php/nordea">Nordea import</a></li>
+      <li><a href="/CodeIgniter_2.0.2/index.php/accounting/test">Test</a></li>
     </ul>
 
     <h3>Övrigt</h3>
     <ul>
-      <li><a href="/CodeIgniter_2.0.2/index.php/Dashboard">Dashboard</a></li>
+      <li><a href="/CodeIgniter_2.0.2/index.php/dashboard">Dashboard</a></li>
       <li><a href="#">Kunder</a></li>
       <li><a href="#">Leverantörer</a></li>
       <li><a href="#">Projekt</a></li>

@@ -10,7 +10,23 @@
 |
 */
 
+$hook['display_override'] = array(
+	'class' => 'BaseSystem',
+	'function' => 'Header',
+	'filename' => 'basesystem.php',
+	'filepath' => 'controllers'
+);
+
+/*
+$hook['post_controller'] = array(
+	'class' => 'BaseSystem',
+	'function' => 'Footer',
+	'filename' => 'basesystem.php',
+	'filepath' => 'controllers'
+);
+*/
 
 
 /* End of file hooks.php */
 /* Location: ./application/config/hooks.php */
+
