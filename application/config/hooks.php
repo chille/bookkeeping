@@ -11,9 +11,9 @@
 */
 
 $hook['display_override'] = array(
-	'class' => 'BaseSystem',
-	'function' => 'Header',
-	'filename' => 'basesystem.php',
+	'class' => 'Page',
+	'function' => 'MainFrame',
+	'filename' => 'page.php',
 	'filepath' => 'controllers'
 );
 

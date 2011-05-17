@@ -10,6 +10,14 @@
   <script type="text/javascript" src="/CodeIgniter_2.0.2/application/views/js/jquery-1.6.min.js"></script>
   <script type="text/javascript" src="/CodeIgniter_2.0.2/application/views/js/jquery-autocomplete/jquery.autocomplete.min.js"></script>
   <script type="text/javascript" src="/CodeIgniter_2.0.2/application/views/js/jquery-impromptu.3.1.min.js"></script>
+
+  <? foreach(BaseSystem::singleton()->GetJs() as $file) { ?>
+    <script type="text/javascript" src="/CodeIgniter_2.0.2/application/<?=$file?>"></script>
+  <? } ?>
+
+  <? foreach(BaseSystem::singleton()->GetCss() as $file) { ?>
+    <link type="text/css" rel="stylesheet" media="all" href="/CodeIgniter_2.0.2/application/<?=$file?>" />
+  <? } ?>
 </head>
 <body>
 
