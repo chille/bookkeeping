@@ -35,7 +35,7 @@
       <li><a href="/CodeIgniter_2.0.2/index.php/accounting/balance">Balansrapport</a></li>
       <li><a href="/CodeIgniter_2.0.2/index.php/accounting/result">Resultatrapport</a></li>
       <li><a href="/CodeIgniter_2.0.2/index.php/invoice">Fakturor</a></li>
-      <li><a href="/CodeIgniter_2.0.2/index.php/nordea">Nordea import</a></li>
+      <li><a href="/CodeIgniter_2.0.2/index.php/nordea">Nordea kontoutdrag</a></li>
       <li><a href="/CodeIgniter_2.0.2/index.php/accounting/test">Test</a></li>
     </ul>
 
@@ -49,8 +49,19 @@
       <li><a href="#"></a></li>
       <li><a href="#"></a></li>
       <li><a href="#"></a></li>
-  </ul>
-
+    </ul>
   </div>
 
   <div id="main">
+    <? if(Message::IsMessages()) { ?>
+    <div class="message">
+      <?=Message::GetMessages()?>
+    </div>
+    <? } ?>
+
+    <? if(Message::IsErrors()) { ?>
+    <div class="error">
+      <?=Message::GetErrors()?>
+    </div>
+    <? } ?>
+
